@@ -32,7 +32,7 @@ group :test, :development do
   gem 'rspec', '~> 3.7'
   gem 'rspec_junit_formatter', '~> 0.4'
   gem 'simplecov'
-  gem 'typhoeus', '~> 1.4'
+  gem 'typhoeus', '~> 1.4', git: 'https://github.com/alexeipanov/typhoeus'
   gem 'webmock', '~> 3.4'
 end
 
